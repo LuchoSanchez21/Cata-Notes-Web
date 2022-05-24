@@ -41,8 +41,10 @@ section article {
 section article img {
     padding: 0 3rem;
 }
+
 section article:hover {
     box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
 }
 
 section article h2, section article p {
@@ -76,5 +78,6 @@ footer a:hover {
     height: 35px;
     padding: 0px 20px 0px 10px;
     float:left;
+    
 }
 
